@@ -21,8 +21,7 @@ export const useLoginMutation = () => {
 				);
 
 				return data;
-			} catch (err) {
-				return err.response?.data;
+			} catch (error) {
 			}
 		},
 		{
